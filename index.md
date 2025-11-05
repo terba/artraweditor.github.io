@@ -43,7 +43,7 @@ Compared to the latter, ART differs in the following main aspects:
 ## Status
 
 The current version is 1.25.10. It was released on October 17th 2025.
-[Change log](https://github.com/artpixls/ART/compare/1.25.9...1.25.10).
+[Change log](https://github.com/artraweditor/ART/compare/1.25.9...1.25.10).
 
 ## License 
 ART is released under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl.html).

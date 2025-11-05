@@ -98,13 +98,13 @@ If everything went well, a window should pop up which will let you experiment wi
 
 ## 3. *agx-emulsion* integration in ART {#agx-emusion-art-integration}
 
-Integration of *agx-emulsion* in ART has started since [commit 22fe47d](https://github.com/artpixls/ART/commit/22fe47d2a4b5f72c7895ddd0cf7cfddaaabf3cfe) and is available since [release 1.25.3](https://github.com/artpixls/ART/releases/tag/1.25.3).
+Integration of *agx-emulsion* in ART has started since [commit 22fe47d](https://github.com/artraweditor/ART/commit/22fe47d2a4b5f72c7895ddd0cf7cfddaaabf3cfe) and is available since [release 1.25.3](https://github.com/artraweditor/ART/releases/tag/1.25.3).
 
 In order to use the module in ART, download the support scripts:
 
-[ART_agx_film.json](https://github.com/artpixls/ART/raw/refs/heads/master/tools/extlut/ART_agx_film.json)
+[ART_agx_film.json](https://github.com/artraweditor/ART/raw/refs/heads/master/tools/extlut/ART_agx_film.json)
 
-[agx_emulsion_mklut.py](https://github.com/artpixls/ART/raw/refs/heads/master/tools/extlut/agx_emulsion_mklut.py)
+[agx_emulsion_mklut.py](https://github.com/artraweditor/ART/raw/refs/heads/master/tools/extlut/agx_emulsion_mklut.py)
 
 and save them *both in the same directory* of your choice. **It is crucial that both files reside in the same directory**.
 
@@ -151,7 +151,7 @@ At this point you can test if everything works:
 In order to keep both the ***agx-emulsion*** Python code base and its support in ART up to date:
 
 1.  update your local agx-emulsion repo (though *git* or by extracting a zip/tarball) and refer to the second command in the [agx-emulsion section](#agx-emulsion-installation) above
-2.  download the ***agx_emulsion_mklut.py*** and ***ART_agx_film.json*** files from <https://github.com/artpixls/ART/tree/master/tools/extlut> again, and replace the existing files in ART's **CLUT directory** with the new ones.
+2.  download the ***agx_emulsion_mklut.py*** and ***ART_agx_film.json*** files from <https://github.com/artraweditor/ART/tree/master/tools/extlut> again, and replace the existing files in ART's **CLUT directory** with the new ones.
 
 **Disclaimer**
 

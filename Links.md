@@ -3,6 +3,6 @@ title: Related projects
 ---
 # Related projects
 
-- [Plugins for additional image formats](https://github.com/artpixls/ART-imageio/) (documentation [link](Customformats.html)).
+- [Plugins for additional image formats](https://github.com/artraweditor/ART-imageio/) (documentation [link](Customformats.html)).
 
-- [A collection of CTL scripts](https://github.com/artpixls/ART-ctlscripts/) (documentation [link](Luts.html)).
+- [A collection of CTL scripts](https://github.com/artraweditor/ART-ctlscripts/) (documentation [link](Luts.html)).

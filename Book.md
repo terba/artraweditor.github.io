@@ -249,7 +249,7 @@ The source of the raw files ("images") shown in the book (which can be downloade
 
 [ART Forum](https://discuss.pixls.us/c/software/ART)
 
-[CTL Scripts Collection](https://github.com/artpixls/ART-ctlscripts/)
+[CTL Scripts Collection](https://github.com/artraweditor/ART-ctlscripts/)
 
 [darktable user manual](https://docs.darktable.org/usermanual/4.6/en/)
 
@@ -977,7 +977,7 @@ Here you will find a link to download the program (and the CTL scripts), to acce
 
 You can download the latest, stable version of ART for your operating system from here:
 
-[ART stable](https://github.com/artpixls/ART/releases)
+[ART stable](https://github.com/artraweditor/ART/releases)
 
 I'll just write a few words about installing on Linux, because it might not be so obvious. You need to download the compressed file ART-x.xx.x-linux64.tar.xz (where "x.xx.x" is the version number) and then extract it to the directory where it will be located. This doesn't have to be a system directory, in principle it can be anywhere. I myself put it in the user-accessible part of the SSD RAM drive that also contains the operating system (i.e. not in the operating system area) so that it loads into memory faster. I copied the downloaded file into the created directory. I extracted it by right-clicking on it and selecting Extract to from the context menu. For example, an ART-1.19.3-linux64 directory was created, with the program's subdirectories and files in it. I renamed this directory to ART. The downloaded file can then be deleted.
 
@@ -2309,7 +2309,7 @@ Starting with ART version 1.21, a great feature is the use of CTL scripts. CTL (
 
 The creator of ART, Alberto Griggio, has also created a very useful CTL script collection, the latest version of which can be downloaded from this page as a compressed (.zip) file:
 
-[CTL Script Collection](https://github.com/artpixls/ART-ctlscripts/tags)   
+[CTL Script Collection](https://github.com/artraweditor/ART-ctlscripts/tags)   
 
 ![](book-images/154.jpg)
 

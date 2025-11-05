@@ -5,7 +5,7 @@ Starting from version 1.16.4, the procedure has been greatly simplified, and it 
 
 ## Exporting as HDR
 
-We can enable HDR output by installing the relevant [custom image format plugins](Customformats) from the [ART-imageio repository](https://github.com/artpixls/ART-imageio/), following the instructions about the needed dependencies. 
+We can enable HDR output by installing the relevant [custom image format plugins](Customformats) from the [ART-imageio repository](https://github.com/artraweditor/ART-imageio/), following the instructions about the needed dependencies. 
 If the plugins are properly configured, you should see three different HDR entriesin the list of available output formats (either in the batch queue or in the file save dialog): "AVIF (HDR PQ)", "JPEG-XL (HDR PQ)", and "HEIC (PQ HDR-TV 1000 nits)". 
 Note that as of version 1.18, such plugins are shipped with the Windows installer of ART.
 

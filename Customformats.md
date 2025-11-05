@@ -275,4 +275,4 @@ subprocess.run(['gpr_tools', '-i', sys.argv[1], '-o', sys.argv[2]], check=True)
 
 ## A repository for custom image handlers
 
-A collection of cross-platform image handlers is available [in this repository](https://github.com/artpixls/ART-imageio/).
+A collection of cross-platform image handlers is available [in this repository](https://github.com/artraweditor/ART-imageio/).

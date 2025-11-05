@@ -103,7 +103,7 @@ sudo make install
 
 ## Building **ART**
 
-- download the build-art script (raw) from <https://raw.githubusercontent.com/artpixls/ART/refs/heads/master/tools/build-art>
+- download the build-art script (raw) from <https://raw.githubusercontent.com/artraweditor/ART/refs/heads/master/tools/build-art>
 
 - you may have to remove an older build first: `rm -r programs/art programs/code-art`
 - Make build-art executable `(chmod +x)` and execute it:

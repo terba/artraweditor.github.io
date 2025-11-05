@@ -68,7 +68,7 @@ You should have a new user command called "AI denoise (nind-denoise)". If everyt
 ## AI masking
 
 We can use [SAM2](https://github.com/facebookresearch/sam2)
-through its [SMART](https://github.com/artpixls/SMART) GUI frontend
+through its [SMART](https://github.com/artraweditor/SMART) GUI frontend
 to quickly generate masks of various subjects in the scene.
 
 Similarly to nind-denoise, we will integrate it with ART via the attached
@@ -86,7 +86,7 @@ which can be installed as explained below.
 1. clone the repository:
 
    ```text
-   $ git clone --depth 1 https://github.com/artpixls/SMART
+   $ git clone --depth 1 https://github.com/artraweditor/SMART
    ```
 
 2. Activate the previously-created Python virtual env, and install the required dependencies:

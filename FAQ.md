@@ -23,11 +23,12 @@
   However, we often collaborate with the RawTherapee devs, exchanging ideas and code. We might also meet for drinks when there is a chance.
 
 - **Back to ART then. Why should I use it?**
-  You probably shouldn't. If you are looking for an excellent, free raw processing tool, you can have a look at (in alphabetical order) [darktable](https://www.darktable.org), [Filmulator](https://filmulator.org), [LightZone](https://lightzoneproject.org), [PhotoFlow](https://aferrero2707.github.io/PhotoFlow/), [rawproc](https://github.com/butcherg/rawproc), [RawTherapee](http://rawtherapee.org) itself, or [vkdt](https://jo.dreggn.org/vkdt/).
+  You probably shouldn't. If you are looking for an excellent, free raw processing tool, you can have a look at (in alphabetical order) [darktable](https://www.darktable.org), [Filmulator](https://filmulator.org), [LightZone](https://lightzoneproject.org), [PhotoFlow](https://aferrero2707.github.io/PhotoFlow/), [rawproc](https://github.com/butcherg/rawproc), [RapidRAW](https://github.com/CyberTimon/RapidRAW), [RawTherapee](http://rawtherapee.org) itself, or [vkdt](https://jo.dreggn.org/vkdt/).
 
 - **Let's say I want to use it anyway. Is there any support for it?**
   As most open source projects, ART *comes with no warranty* whatsoever.
-  That said, there is a user forum at [pixls.us](https://discuss.pixls.us/c/software/art/), where people can ask questions and/or report bugs. For the latter, there is also a bug tracker on [GitHub](https://github.com/artpixls/ART/issues/).   Although there is no warranty, we dislike buggy software as much as everybody else, so we do our best to address the issues reported.
+  That said, there is a issue tracker on [GitHub](https://github.com/artraweditor/ART/issues/), where people can ask questions and/or report bugs.
+  Although there is no warranty, we dislike buggy software as much as everybody else, so we do our best to address the issues reported.
 
 - **Ok, maybe I'm interested. How can I contribute?**
   If you are interested in programming, we welcome code contributions, both to fix bugs and to implement new features that fit well within the rest of the program. (This is a vague concept on purpose, as fitness is evaluated on a case-by-case basis, and -- again -- there is no guarantee that code contributions will be accepted).
