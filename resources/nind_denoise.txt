@@ -1,0 +1,5 @@
+[ART UserCommand]
+Label=AI denoise (nind-denoise)
+Command=./nind_denoise_raw.sh
+NumArgs=1
+FileType=raw

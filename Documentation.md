@@ -10,6 +10,8 @@ title: Documentation
 
 - [ART quick start guide](Quickstart)
 
+- [The ART book](Book)
+
 - [ART reference manual](Reference)
 
 - [Notes about the processing pipeline](Pipeline)
@@ -34,7 +36,7 @@ title: Documentation
 
 - [Spectral film simulations in ART](AgXEmulsionLutHowto)
 
-- [The ART book](Book)
+- [ART and AI-based tools](AItools)
 
 Other documentation sources ("unofficial", not maintained by the project): 
 

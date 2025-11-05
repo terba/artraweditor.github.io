@@ -1,0 +1,4 @@
+[ART UserCommand]
+Label=AI masking (SMART)
+Command=./smart_masking.sh
+NumArgs=1
