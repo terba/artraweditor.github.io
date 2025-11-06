@@ -27,7 +27,8 @@
 
 - **Let's say I want to use it anyway. Is there any support for it?**
   As most open source projects, ART *comes with no warranty* whatsoever.
-  That said, there is a issue tracker on [GitHub](https://github.com/artraweditor/ART/issues/), where people can ask questions and/or report bugs.
+  That said, there are an [issue tracker]((https://github.com/artraweditor/ART/issues/)) and a [discussion board](https://github.com/orgs/artraweditor/discussions) on GitHub,
+  where people can ask questions and/or report bugs.
   Although there is no warranty, we dislike buggy software as much as everybody else, so we do our best to address the issues reported.
 
 - **Ok, maybe I'm interested. How can I contribute?**
