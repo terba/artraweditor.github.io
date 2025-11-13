@@ -23,7 +23,7 @@
   Exposure compensation                | Linear RGB            |
   HSL equalizer                        | Linear RGB            |
   Tone equalizer                       | Linear RGB            | Short description [here](https://discuss.pixls.us/t/ive-finally-tried-art-and-it-is-amazing/20482/14)
-  DCP profile look modifiers (baseline exposure, DCP tone curve, look table) when "Early mode" is selected                      | Linear RGB            |
+  DCP profile look modifiers           | Linear RGB            | Apply baseline exposure, tone curve, and look table from the DCP profile when "Early mode" is selected 
   Sharpening                           | Linear RGB            |
   Impulse denoise                      | Linear RGB            |
   Defringe                             | Linear RGB            |
