@@ -12,17 +12,23 @@ I'd like to show how to do that for Unix-based systems
 
 ## AI-based denoising
 
-We can use [nind-denoise](https://github.com/trougnouf/nind-denoise)
+We can use either [nind-denoise](https://github.com/trougnouf/nind-denoise)
+or [RawRefinery](https://github.com/rymuelle/RawRefinery)
 to perform advanced noise reduction with neural networks.
-In order to integrate it with ART, we can use the attached `nind_denoise.txt` user command and `nind_denoise_raw.sh` companion script.
-Both should be placed in `$HOME/.config/ART/usercommands`.
-The script needs to be modified to point to the installation directory of nind-denoise.
-Some installation instructions for the latter appear below.
+In order to integrate them with ART, we can use the attached user commands and compation scripts:
 
-- [nind_denoise.txt](resources/nind_denoise.txt)
-- [nind_denoise_raw.sh](resources/nind_denoise_raw.sh)
+- [nind_denoise.txt](resources/nind_denoise.txt) and [nind_denoise_raw.sh](resources/nind_denoise_raw.sh) for "nind-denoise"; or
+- [rawrefinery_denoise.txt](resources/rawrefinery_denoise.txt) and [rawrefinery_denoise.sh](resources/rawrefinery_denoise.sh) for "RawRefinery".
 
-### nind-denoise installation
+They should all be placed in `$HOME/.config/ART/usercommands`.
+The scripts need to be modified to point to the installation directory of 
+the respective denoiser.
+Some installation instructions appear below.
+
+
+### nind-denoise configuration
+
+#### Installation
 
 1. clone the repository (I'm using my fork of the original code, whose only change is to allow more devices to be selected, other than NVida-based GPUs or CPU as the original):
 
@@ -38,7 +44,7 @@ Some installation instructions for the latter appear below.
    $ pip install torch torchvision ConfigArgParse opencv-python pyyaml piqa 
    ```
 
-### ART user command configuration
+#### ART user command configuration
 
 Open `nind_denoise_raw.sh` and edit the variables at the beginning of the file to adapt to your environment:
 
@@ -58,11 +64,45 @@ ART_CLI=ART-cli
 #############################################################################
 ```
 
-### Testing that it works
+#### Testing that it works
 
 You should have a new user command called "AI denoise (nind-denoise)". If everything is configured properly, activating it should result in an image `FILENAME-denoised.tif` generated in the current directory (when invoked on a file called `FILENAME.raw`). Here's a quick video demo:
 
 - [AI denoising demo](demos/ART-AI-denoise.mp4)
+
+### RawRefinery configuration
+
+#### Installation
+
+Follow the instructions at https://github.com/rymuelle/RawRefinery, 
+creating a suitable Python virtual env (below, I will assume 
+it is called `RawRefinery-venv`, and is installed in `$HOME/src`;
+ if your setup is different, adjust accordingly).
+The `rawrefinery_denoise.sh` requires also [ExifTool](http://exiftool.org), 
+so make sure it is available on your `$PATH`.
+
+#### ART user command configuration
+
+Open `rawrefinery_denoise.sh` and edit the variables at the beginning of the file to adapt to your environment:
+
+```bash
+# select the device to use for denoising (cuda, mps, cpu, ...)
+DEVICE=mps
+
+# Python interpreter to use
+PYTHON=$HOME/src/RawRefinery-venv/bin/python
+
+export PATH=$HOME/.local/bin:/opt/local/bin:/usr/local/bin:$PATH
+
+#############################################################################
+```
+
+#### Testing that it works
+
+You should have a new user command called "AI denoise (RawRefinery)". 
+If everything is configured properly, activating it should result in an image 
+`FILENAME-denoised.dng` generated in the current directory
+ (when invoked on a file called `FILENAME.raw`).
 
 
 ## AI masking
